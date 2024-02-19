@@ -1,0 +1,83 @@
+.case_top img {
+    width: 100%;
+}
+.case_top .txt {
+    position: absolute;
+    margin-top: -13%;
+    left: 7%;
+}
+.case_top .date, .case_top h1, .case_top .initial {
+    letter-spacing: 3px;
+    color: #fff
+}
+.case_top h1 {
+    letter-spacing: 5px;
+    font-size: 2.8vw;
+}
+.sp .case_top .txt {
+    margin-top: -22%;
+}
+.sp .case_top p {
+    font-size: 2vw;
+}
+.sp .case_top h1 {
+    letter-spacing: 2px;
+    font-size: 4.2vw;
+}
+
+.case_content_parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content_title {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    letter-spacing: 3px;
+}
+.content_title h2 {
+    margin-left: 22px;
+}
+.sp .content_title h2 {
+    margin-left: 10px;
+}
+
+.case_content {
+    width: 75%;
+    margin-top: 5%;
+}
+.sp .case_content {
+    width: 87%;
+    margin-top: 7%;
+}
+.content_title img {
+    width: 50px;
+    height: auto;
+}
+.sp .content_title h2 {
+    font-size: 4vw;
+}
+.sp .content_title img {
+    width: 24px;
+}
+.content_txt {
+    margin-top: 3%;
+    letter-spacing: 3px;
+    font-size: 1.35vw;
+    line-height: 35px;
+}
+.sp .content_txt {
+    letter-spacing: 1px;
+    font-size: 2.7vw;
+    line-height: 5vw;
+    margin-top: 6%;
+} 
+.Recruit {
+    margin: 8% 5.5%;   
+}
+
+.sp .Recruit {
+    margin: 12% 5.5%;   
+} 

@@ -1,0 +1,110 @@
+.why_top {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+.why_top h1 {
+    letter-spacing: 6px;
+    margin-top: 45%;
+    font-size: 3.5vw;
+}
+.sp .why_top h1 {
+    margin-top: -1%;
+    font-size: 7vw;
+}
+.why_top .en_title {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.sp .why_top .en_title  {
+    font-size: 3vw;
+}
+.why_top img {
+    width: 43%;
+}
+.sp .why_top img {
+    width: 100%;
+    margin-top: 20%;
+}
+.sp .why_top  {
+    margin-bottom: 15%;
+}
+.why_top_content {
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.sp .why_top_content {
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.why_content_parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content_title {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    letter-spacing: 3px;
+}
+.content_title h2 {
+    margin-left: 22px;
+}
+.sp .content_title h2 {
+    margin-left: 10px;
+}
+
+.why_content {
+    width: 75%;
+    margin-top: 5%;
+}
+.sp .why_content {
+    width: 87%;
+    margin-top: 7%;
+}
+.content_title img {
+    width: 50px;
+    height: auto;
+}
+.sp .content_title h2 {
+    font-size: 4vw;
+}
+.sp .content_title img {
+    width: 24px;
+}
+.content_txt {
+    margin-top: 3%;
+    letter-spacing: 3px;
+    font-size: 1.35vw;
+    line-height: 35px;
+}
+.sp .content_txt {
+    letter-spacing: 1px;
+    font-size: 2.7vw;
+    line-height: 5vw;
+    margin-top: 6%;
+} 
+.Recruit {
+    margin: 8% 5.5%;   
+}
+.sp .Recruit {
+    margin: 12% 5.5%;   
+} 
+
+.content_img {
+    width: 75%;
+    margin-top: 4%;
+}
+.sp .content_img {
+    width: 87%;
+}
