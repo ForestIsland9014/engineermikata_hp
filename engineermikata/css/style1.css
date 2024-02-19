@@ -3,6 +3,12 @@
     padding: 0px;
     font-family: Helvetica, Arial, sans-serif;
     color: var(--font-color-black);
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    cursor:pointer;
 }
 
 :root {
@@ -296,12 +302,17 @@ body {
 }
 .regular img {
     width: 100%;
-    
+    border-radius: 8px 8px 0px 0px;
 }
 .slider_content  {
     width: 100%;
     letter-spacing: 3px;
     font-size: 1.1vw;
+    transition-duration: .2s;
+}
+.slider_content:hover {
+    transform: scale(1.02) translateY(-4px);
+   
 }
 .slick-initialized .slick-slide {
     margin: 0 12px;
@@ -363,6 +374,9 @@ body {
 .member {
     margin-top: 12%;
 }
+.sp .member {
+    margin-top: 100%;
+}
 .member h1 {
     font-size: 2.6vw;
 }
@@ -379,6 +393,10 @@ body {
     width: 32%;
     padding-bottom: 20px;
     margin: 0 0.65%;
+    transition-duration: .2s;
+}
+.member_content:hover {
+    transform: scale(1.02);
 }
 .member_content img {
     width: 100%;
@@ -542,6 +560,7 @@ body {
 .recruit_btn img {
     width: 322px;
     margin-top: 46px;
+    z-index: 999;
 }
 
 .SDGs_content img {
@@ -657,6 +676,9 @@ body:has(.sp) {
     overflow-x: hidden;
     overflow-y: clip;
     padding-bottom: 10px;
+    position: absolute;
+    z-index: 999;
+    height: 650%;
 }
 
 .sp .content .en_title{
@@ -685,6 +707,9 @@ body:has(.sp) {
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+.sp_head a {
+    width: 100%;
+}
 .sp_head h1 {
     z-index: 9999999;
     font-size: 125%;
@@ -693,12 +718,12 @@ body:has(.sp) {
     z-index: 9999999;
 }
 .sp .logo {
-    position: absolute;
+    position: relative;
     font-size: 5.6vw;
     letter-spacing: 1vw;
     color: var(--font-color-whiete);
     top: 1.9%;
-    left: 5%;
+    left: 8%;
 }
 .sp .content h1 {
     font-size: 6.8vw;
@@ -817,6 +842,7 @@ body:has(.sp) {
 }
 .sp .slick-dots {
     bottom: -5px;
+    z-index: 999;
 }
 .sp .slider .slider_content {
     width: 95%!important;
@@ -901,7 +927,7 @@ body:has(.sp) {
     font-size: 5.9vw;
 }
 .sp .shareholder .pr {
-    font-size: 4.5vw;
+    font-size: 3vw;
     letter-spacing: 3px;
 }
 .sp .pr_img {
@@ -1105,12 +1131,42 @@ body:has(.sp) {
 footer .logo {
     filter: brightness(100);
     width: 26%;
+    margin: 0 20%;
 }
 .sp footer .logo {
     filter: brightness(100);
     width: 50%;
     position: static!important;
     margin-bottom: 4%;
+}
+.page_link {
+    position: absolute;
+    top: -5%;
+}
+.sp .why .page_link {
+    top: -95%;
+}
+.sp .income .page_link {
+    top: -60%
+}
+.sp .member .page_link {
+    top: -2%;
+}
+.sp .CEO .page_link {
+    top: -2%;
+}
+.sp .company .page_link {
+    top: -2%;
+}
+.sp .news .page_link {
+    top: -2%;
+}
+.sp .slider_txt .name {
+    font-size: 2.8vw;
+}
+
+.btn_hover:hover {
+    filter: brightness(0.9);
 }
 
 @media screen and (max-width: 1450px) {
@@ -1150,4 +1206,19 @@ footer .logo {
       display: none; /*Google Chrome、Safari、Microsoft Edge対応のスクロールバー非表示コード*/
     }
 }
-
+@media screen and (max-width: 570px) {
+    .sp .slick-dotted.slick-slider {
+        height: 680%; 
+    }
+    .sp .logo {
+        left: 4%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .sp .slick-dotted.slick-slider {
+        height: 740%; 
+    }
+    .sp .member {
+        margin-top: 110%;
+    }
+}

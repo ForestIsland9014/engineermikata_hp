@@ -1,5 +1,6 @@
 .case_top img {
-    width: 100%;
+    width: 100%;    
+    filter: brightness(0.7);
 }
 .case_top .txt {
     position: absolute;

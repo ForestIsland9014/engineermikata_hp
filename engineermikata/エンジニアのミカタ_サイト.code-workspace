@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "エンジニアのミカタ_サイト",
+			"path": "../エンジニアのミカタ_サイト"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "エンジニアのミカタ_サイト",
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}
