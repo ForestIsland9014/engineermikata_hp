@@ -310,8 +310,8 @@ body {
     font-size: 1.1vw;
     transition-duration: .2s;
 }
-.slider_content:hover {
-    transform: scale(1.02) translateY(-4px);
+.pc .slider_content:hover {
+    transform: scale(1.02) translateY(-5px);
    
 }
 .slick-initialized .slick-slide {
@@ -723,7 +723,7 @@ body:has(.sp) {
     letter-spacing: 1vw;
     color: var(--font-color-whiete);
     top: 1.9%;
-    left: 8%;
+    left: 4%;
 }
 .sp .content h1 {
     font-size: 6.8vw;
