@@ -72,6 +72,9 @@
     font-size: 1.35vw;
     line-height: 35px;
 }
+.content_txt a {
+    word-wrap:break-word;
+}
 .sp .content_txt {
     letter-spacing: 1px;
     font-size: 2.7vw;
