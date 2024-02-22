@@ -49,6 +49,9 @@
     width: 75%;
     margin-top: 5%;
 }
+.case_content h1 {
+    font-size: 2vw;
+}
 .sp .case_content {
     width: 87%;
     margin-top: 7%;
@@ -82,3 +85,9 @@
 .sp .Recruit {
     margin: 12% 5.5%;   
 } 
+
+@media screen and (max-width: 1000px) {
+    .case_content h1 {
+        font-size: 20px;
+    }
+}

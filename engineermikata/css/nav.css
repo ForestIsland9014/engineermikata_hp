@@ -110,6 +110,7 @@
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1vw;
+  width: 100%;
 }
 
 #nav-fullscreen.open {

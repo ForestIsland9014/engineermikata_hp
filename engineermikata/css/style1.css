@@ -67,6 +67,9 @@ body {
     margin: 0 15px;
     cursor: pointer;
 }
+.inquiry_btn_border:hover {
+    filter: brightness(0.96);
+}
 .header_wrap .inquiry_btn {
     padding: 10px 20px;
     letter-spacing: 2px;
@@ -92,7 +95,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     color: var(--font-color-black);
-    margin-left: 7.5%;
+    margin-left: 5.5%;
     position: relative;
 }
 .top .CatchCopy {
@@ -536,7 +539,14 @@ body {
 .news table th {
     width: 22.5%;
 }
-
+.news table td {
+    cursor: pointer;
+    transition-duration: .2s;
+}
+.news table td:hover {
+    transform: scale(1.01);
+    font-weight: bold;
+}
 .Recruit .job_img {
     display: flex;
     flex-wrap: wrap;
@@ -549,8 +559,12 @@ body {
     width: 100%;
     cursor: pointer;
     z-index: 999;
+    transition-duration: .2s;
 }
-
+.Recruit .job_img img:hover {
+    filter: brightness(0.94);
+    transform: scale(1.01);
+}
 .recruit_btn {
     display: flex;
     justify-content: center;
@@ -561,6 +575,9 @@ body {
     width: 322px;
     margin-top: 46px;
     z-index: 999;
+}
+.recruit_btn img:hover {
+    filter: brightness(0.9);
 }
 
 .SDGs_content img {
@@ -608,6 +625,10 @@ body {
     width: 48.5%;
     cursor: pointer;
     z-index: 999;
+    transition-duration: .2s;
+}
+.media .medias img:hover {
+    transform: scale(1.01);
 }
 
 .contact {
@@ -626,8 +647,12 @@ body {
     cursor: pointer;
     margin-top: 30px;
     z-index: 999;
+    transition-duration: .2s;
 }
+.contact .Contacts img:hover {
+    transform: scale(1.01);
 
+}
 footer {
     display: flex;
     justify-content: center;
@@ -830,7 +855,9 @@ body:has(.sp) {
 }
 .sp .Recruit .job_img img {
     width: 100%;
+
 }
+
 .sp .CEO .sub .sub_txt {
     margin-top: 6%;
     margin-left: 0%;
